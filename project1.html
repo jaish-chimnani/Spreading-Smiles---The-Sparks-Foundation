@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaish fitness gym</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            color: white;
+            font-family: 'Saira Semi Condensed', sans-serif;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('yannis-h-uaPaEM7MiQQ-unsplash.jpg');
+            background-size:contain;
+            height: 900px;
+
+        }
+
+        #contact {}
+
+        .left img {
+            width: 40px;
+            filter: invert(-10%);
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        button {
+            color: rgb(236, 232, 232);
+        background-color: rgb(24, 26, 26);
+            padding: 2px;
+            margin: 5px;
+            border: 2px solid rgb(17, 17, 17);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: thistle;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 60px;
+            top: 22px;
+        }
+
+        .mid {
+            display: block;
+            width: 43%;
+            margin: 18px auto;
+            text-align: center;
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            right: 20px;
+            top: 22px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li:hover {
+            background-color: wheat;
+            border-radius: 50%;
+  height: 312px;
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(0.48);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 400px;
+  zoom: 10px;
+        }
+
+        .navbar li {
+
+            display: inline;
+            list-style: none;
+            padding: 23px;
+            font-size: 17px;
+
+        }
+
+        .navbar li a {
+
+            text-decoration: none;
+
+        }
+
+        a{
+            text-decoration: none;
+        }
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(58, 56, 56);
+        }
+        h3{
+            font-size: 36px;
+        }
+
+.donateButton{
+    
+    display: flex;
+    justify-content: center;
+}
+.donateButton button{
+    width: 300px;
+    height: 50px;
+}
+.form-group input{
+
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 24px;
+    border-radius: 8px;
+}
+        .form-group {
+            /* border: 3px solid rgb(119, 118, 118); */
+            border-radius: 50px;;
+    width: 39%;
+    padding: 44px;
+    top: 100px;
+    left: 220px;
+    position: absolute;
+        }
+        .form-group button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        h2{
+            border: 3px solid white;
+            color: black;
+            box-shadow: white 10px;
+            background-color:wheat;
+            display: flex;
+    align-self: center;
+    justify-content: center;   
+        }
+        .space{
+            height 400px;
+        }
+        marquee{
+        
+            bottom :10px;
+            animation: marquee 2s linear infinite;
+            color: #000;
+            background-color: whitesmoke;
+        }
+        .scrollText{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" id="contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btm">Call me</button>
+            <button class="btm">E-Mail me</button>
+        </div>
+    </div>
+    <h2>Your Small Donation can make Someone Smile !</h2>
+<div class="donateButton" >
+    <button><a href="https://rzp.io/l/KbHePd7x">Donate Now</a> </button>
+</div>
+<div class="space"> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+<div class="scrollText">
+
+    <marquee>Thank You for visiting </marquee>
+</div>
+</body>
+
+</html>
